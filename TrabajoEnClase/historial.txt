@@ -1,0 +1,864 @@
+    1  help
+    2  echo "hola"
+    3  clear
+    4  pwd
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd edes_09
+    9  cd ..
+   10  ls -l
+   11  nano uno.txt
+   12  sudo su
+   13  clear
+   14  sudo nano dos.xt
+   15  ls -l
+   16  sudo nano tres.txt
+   17  sudo nano cuatro.txt
+   18  ls -l
+   19  nano dos.txt
+   20  cat uno.txt
+   21  clear
+   22  chmod 755 dos.xt
+   23  chmod 755 tres.txt
+   24  ls
+   25  clear
+   26  sudo chmod 777 dos.xt
+   27  sudo chmod 755 tres.txt
+   28  sudo chmod 644 cuatro.txt
+   29  ls -l
+   30  nano dos.xt
+   31  mv dos.xt dos.txt
+   32  sudo su
+   33  ls -l
+   34  ls -la
+   35  clear
+   36  ls -l
+   37  sudo chmod 644 dos.txt
+   38  ls -l
+   39  sudo chmod 644 tres.txt
+   40  sudo chmod 644 cuatro.txt
+   41  ls -l
+   42  sudo chmod -w dos.txt
+   43  sudo chmod -w tres.txt
+   44  sudo chmod -w cuatro.txt
+   45  ls -l
+   46  sudo chmod 644 cuatro.txt
+   47  sudo chmod 644 tres.txt
+   48  sudo chmod 644 dos.txt
+   49  ls -l
+   50  sudo chmod -r dos.txt
+   51  ls -l
+   52  sudo chmod +w dos.txt
+   53  ls -l
+   54  sudo chmod +r dos.txt
+   55  ls -l
+   56  sudo chmod -rw dos.txt
+   57  ls -l
+   58  sudo chmod +rwx dos.txt
+   59  ls -l
+   60  sudo chmod -rx dos.txt
+   61  ls -l
+   62  sudo chmod -rx tres.txt
+   63  sudo chmod -rx cuatro.txt
+   64  ls -l
+   65  sudo chmod +w cuatro.txt
+   66  ls -l
+   67  sudo chmod u=r, g=r, o=r dos.txt
+   68  sudo chmod u+r, g+r, o+r dos.txt
+   69  sudo chmod u+w dos.txt
+   70  sudo chmod g+w dos.txt
+   71  sudo chmod o+w dos.txt
+   72  ls -l
+   73  sudo chmod u+w tres.txt
+   74  sudo chmod o+w tres.txt
+   75  sudo chmod g+w tres.txt
+   76  ls -l
+   77  sudo chmod g-w tres.txt
+   78  sudo chmod u-w tres.txt
+   79  sudo chmod o-w tres.txt
+   80  ls -l
+   81  sudo chmod 644 tres.txt
+   82  sudo chmod 644 dos.txt
+   83  sudo chmod 644 cautro.txt
+   84  sudo chmod 644 cuatro.txt
+   85  ls -l
+   86  clear
+   87  man mkdir
+   88  man chmod
+   89  mkdir Prueba
+   90  sudo mkdir prueba
+   91  ls -l
+   92  cd prueba
+   93  ls -l
+   94  clear
+   95  ls
+   96  clear
+   97  cd..
+   98  cd ..
+   99  ls
+  100  uname -a
+  101  lsb_release -d
+  102  lsb_release -a
+  103  cat
+  104  apt-get -y install lsb-core
+  105  sudo apt-get -y install lsb-core
+  106  uname -r
+  107  ls
+  108  nano tres.txt
+  109  who
+  110  pdw
+  111  pwd
+  112  cd
+  113  cd..
+  114  cd ..
+  115  pwd
+  116  cd
+  117  pwd
+  118  ls
+  119  cd
+  120  cd ..
+  121  ls
+  122  ls -a
+  123  ls -la
+  124  clar
+  125  clear
+  126  ls -l
+  127  sudo mkdir uno
+  128  ls -l
+  129  cd /uno
+  130  cd uno
+  131  nano uno.txt
+  132  ls
+  133  sudo nano uno.txt
+  134  ls
+  135  sudo nano uno.txt
+  136  ls
+  137  cat uno.txt
+  138  move man
+  139  clear
+  140  sudo mv dos.txt /uno
+  141  cd ..
+  142  ls -l
+  143  cd uno
+  144  sudo nano cinco.txt
+  145  ls -l
+  146  sudo mv cinco.txt /prueba
+  147  cd ..
+  148  ls -l
+  149  cd prueba
+  150  ls -l
+  151  cd ..
+  152  cd uno
+  153  ls -l
+  154  cd ..
+  155  ls -l
+  156  cd
+  157  ls -l
+  158  cd uno
+  159  cd ..
+  160  pwd
+  161  cd uno
+  162  ls -l
+  163  cd ..
+  164  cd prueba
+  165  ls -l
+  166  ls -la
+  167  ls -l
+  168  pwd
+  169  cd ..
+  170  clear
+  171  la -l
+  172  la -la
+  173  la
+  174  ls
+  175  clear
+  176  ls
+  177  ls -l
+  178  ls -la
+  179  sudo mkdir agosto25
+  180  ls -la
+  181  cd agosto25
+  182  sudo nano veintiuno.txt
+  183  cat veintiuno.txt
+  184  cd ..
+  185  ls -la
+  186  mkdir Robotica
+  187  clear
+  188  sudo mkdir Robotica
+  189  sudo mkdir Administracion
+  190  sudo mkdir Calculo
+  191  sudo mkdir Operativos
+  192  sudo mkdir Redes
+  193  cd Robotica
+  194  sudo nano Act_uno.txt
+  195  sudo nano Act_dos.txt
+  196  cat Act_uno.txt
+  197  cat Act_dos.txt
+  198  clear
+  199  cd ..
+  200  cd Administracion
+  201  sudo nano Act_uno.txt
+  202  sudo nano Act_dos.txt
+  203  cat Act_uno.txt
+  204  cat Act_dos.txt
+  205  cd ..
+  206  clear
+  207  cd Calculo
+  208  sudo nano Act_uno.txt
+  209  sudo nano Act_dos.txt
+  210  cat Act_uno.txt
+  211  cat Act_dos.txt
+  212  cd ..
+  213  clear
+  214  cd Operativos
+  215  sudo nano Act_uno.txt
+  216  sudo nano Act_dos.txt
+  217  cat Act_uno.txt
+  218  cat Act_dos.txt
+  219  cd ..
+  220  clear
+  221  cd Redes
+  222  sudo nano Act_uno.txt
+  223  sudo nano Act_dos.txt
+  224  cat Act_uno.txt
+  225  cat Act_dos.txt
+  226  cd ..
+  227  ls -la
+  228  cd Administracion
+  229  ls -la
+  230  clear
+  231  ls -la
+  232  cd ..
+  233  sudo apt install git
+  234  sudo apt install python
+  235  sudo apt-get install python
+  236  sudo apt-get install java
+  237  apt-cache policy git
+  238  git --version
+  239  git --java
+  240  java --version
+  241  git config --global user.name "Alosno-UR"
+  242  git config --global user.email "rangel.alonsoismael.8@gmail.com"
+  243  git config --list
+  244  /usr/bin/git
+  245  clear
+  246  pwd
+  247  cd ..
+  248  pwd
+  249  ls -la
+  250  cd etc
+  251  cd ..
+  252  cd usr
+  253  cd ..
+  254  cd etc
+  255  ls -l
+  256  cd ..
+  257  ls -l
+  258  cd usr
+  259  ls -l
+  260  cd bin
+  261  ls -l
+  262  whereis git
+  263  cd..
+  264  cd ..
+  265  cd home
+  266  cd Alonso-UR
+  267  exit
+  268  pwd
+  269  ls -l
+  270  cd ..
+  271  ls -l
+  272  sudo apt-get update -y
+  273  sudo apt-get upgrate -y
+  274  sudo apt-get upgrade -y
+  275  cd ..
+  276  ls -l
+  277  cd edes_09
+  278  ls -l
+  279  cd ..
+  280  cd canny
+  281  pwd
+  282  clear
+  283  cd ..
+  284  cd edes_09
+  285  sudo mv cartas.jpg /home/canny
+  286  cd ..
+  287  cd canny
+  288  ls -l
+  289  clear
+  290  ls -l
+  291  python3 Canny.py
+  292  ls -l
+  293  sudo git init
+  294  ls -la
+  295  sudo git add .
+  296  sudo git commit -m "Subo código e imagen"
+  297  sudo git branch -M main
+  298  sudo git remote add origin https://github.com/Alonso-UR/SistemasOperativos25B.git
+  299  sudo git push -u origin main
+  300  cd ..
+  301  cd canny
+  302  ls -la
+  303  sudo nano Canny.py
+  304  sudo git add Canny.py
+  305  sudo git commit -m "Añadi comentarios en biblioteca"
+  306  sudo git push -u origin main
+  307  sudo nano Canny.py
+  308  sudo git add Canny.py
+  309  sudo git commit -m "Añadi mas comentarios"
+  310  sudo git push -u origin main
+  311  exit
+  312  cd ..
+  313  ls -la
+  314  cd canny
+  315  ls -la
+  316  mkdir Asistencia
+  317  sudo mkdir Asistencia
+  318  ls -la
+  319  sudo git add Asistencia
+  320  sudo git commit -m "Añadí carpeta Asistencia"
+  321  sudo git add .
+  322  sudo git commit -m "Añadí carpeta Asistecia"
+  323  sudo git add .
+  324  git commit -m "Añadí carpeta Asistecia"
+  325  sudo git add .
+  326  sudo git branch -M main
+  327  sudo git push -u origin main
+  328  sudo git remote add origin https://github.com/Alonso-UR/SistemasOperativos25B.git
+  329  sudo git init
+  330  git add .
+  331  cd ..
+  332  cd home
+  333  cd canny
+  334  sudo git add .
+  335  sudo git commit -m "Subi carpeta"
+  336  cd ..
+  337  cd canny
+  338  cd Asistencia
+  339  sudo git add .
+  340  sudo git commit -m "Subi la carpeta Asistencia"
+  341  git push -u origin master
+  342  git branch -M main
+  343  cd ..
+  344  sudo git add .
+  345  git push -u origin main
+  346  cd Asistencia
+  347  echo "Hola" >> README.md
+  348  sudo echo "Hola" >> README.md
+  349  clear
+  350  sudo echo "Hola" >> README.md
+  351  -bash
+  352  sudo echo "Hola" >> Asistencia/prueba.txt
+  353  echo "Hola" >> Asistencia/prueba.txt
+  354  cd ..
+  355  echo "Hola" >> Asistencia/prueba.txt
+  356  clear
+  357  rmdir Asistencia
+  358  sudo rmdir Asistencia
+  359  ls -la
+  360  mkdir Asistencia
+  361  sudo mkdir Asistencia
+  362  sudo nano prueba.txt
+  363  git status
+  364  sudo git status
+  365  sudo git add .
+  366  sudo git commit -m "Creacion de la carpeta"
+  367  sudo git push
+  368  sudo mv /canny/Asistencia/prueba.txt
+  369  sudo mv prueba.txt /canny/Asistencia
+  370  sudo mv prueba.txt home/canny/Asistencia
+  371  ls-l
+  372  ls -l
+  373  sudo mv /home/canny/prueba.txt /home/canny/Asistencia/
+  374  git status
+  375  sudo git status
+  376  sudo git add .
+  377  sudo git commit -m "Intento dos"
+  378  sudo git push
+  379  cd ..
+  380  cd edes_09
+  381  ls -l
+  382  sudo mv /home/canny/Asistencia
+  383  sudo mv Jueves28Agosto2025.png /home/canny/Asistencia
+  384  cd ..
+  385  cd canny
+  386  cd Asistencia
+  387  ls -l
+  388  cd ..
+  389  sudo git add .
+  390  sudo git commit -m "Subi mi asistencia del 28"
+  391  sudo git push
+  392  cd ..
+  393  clear
+  394  cd ..
+  395  cd home
+  396  sudo apt-get update
+  397  clear
+  398  apt-get help
+  399  java
+  400  sudo apt-get remove java
+  401  java
+  402  cleaR
+  403  cleaRr
+  404  clear
+  405  sudo apt-get upgrade -y
+  406  clear
+  407  top
+  408  clear
+  409  top
+  410  clear
+  411  top
+  412  clear
+  413  sudo apt-get htop
+  414  sudo apt-get install htop
+  415  sudo apt-get install htop -y
+  416  htop
+  417  exit
+  418  clear
+  419  cd ..
+  420  cd canny
+  421  ls -l
+  422  cd Asistencia
+  423  ls-l
+  424  ls -l
+  425  clear
+  426  cd ..
+  427  edes_09
+  428  cd edes_09
+  429  ls -l
+  430  mv Viernes29Agosto2025(p1).png /home/canny/Asistencia
+  431  mv Viernes29Agosto2025p1.png /home/canny/Asistencia
+  432  mv Viernes29Agosto2025p1.PNG /home/canny/Asistencia
+  433  sudo mv Viernes29Agosto2025p1.PNG /home/canny/Asistencia
+  434  sudo mv Viernes29Agosto2025p2.PNG /home/canny/Asistencia
+  435  sudo mv Viernes29Agosto2025p3.PNG /home/canny/Asistencia
+  436  cd ..
+  437  cd canny
+  438  cd Asistencia
+  439  ls -l
+  440  sudo git add .
+  441  sudo git commit -m "Asistencia del 28 de Agosto del 2025"
+  442  sudo git push
+  443  cd..
+  444  cd ..
+  445  ls -l
+  446  clear
+  447  cd ..
+  448  cd edes_09
+  449  ls -l
+  450  cd ..
+  451  cd canny
+  452  sudo mkdir Tarea
+  453  ls -l
+  454  cd ..
+  455  cd edes_09
+  456  ls -l
+  457  sudo mv PaquetesInstalados.pdf /home/canny/Tarea
+  458  cd ..
+  459  cd canny
+  460  cd Tarea
+  461  ls -l
+  462  cd ..
+  463  sudo git add .
+  464  sudo git commit -m "Subo carpeta Tarea y la primer tarea"
+  465  sudo git push
+  466  cd asistencia
+  467  cd Asistencia
+  468  ls -l
+  469  sudo rmdir Viernes29Agosto2025p1.PNG
+  470  sudo rv Viernes29Agosto2025p1.PNG
+  471  sudo rm Viernes29Agosto2025p1.PNG
+  472  sudo rm Viernes29Agosto2025p2.PNG
+  473  sudo rm Viernes29Agosto2025p3.PNG
+  474  ls -l
+  475  cd ..
+  476  cd edes_09
+  477  ls -l
+  478  sudo mv Viernes29Agosto2025p1.PNG /home/canny/Asistencia
+  479  sudo mv Viernes29Agosto2025p2.PNG /home/canny/Asistencia
+  480  sudo mv Viernes29Agosto2025p3.PNG /home/canny/Asistencia
+  481  cd ..
+  482  cd canny
+  483  sudo git add .
+  484  sudo git commit -m "Asistencia 29 agosto 2025"
+  485  cd Asistencia
+  486  sudo rm Viernes29Agosto2025p1.PNG
+  487  sudo rm Viernes29Agosto2025p2.PNG
+  488  sudo rm Viernes29Agosto2025p3.PNG
+  489  sudo git add .
+  490  sudo git commit -m "Me equivoque"
+  491  sudo git push
+  492  cd ..
+  493  cd edes_09
+  494  pwd
+  495  ls -l
+  496  sudo mv Viernes29Agosto2025p1.PNG /home/canny/Asistencia
+  497  sudo mv Viernes29Agosto2025p2.PNG /home/canny/Asistencia
+  498  sudo mv Viernes29Agosto2025p3.PNG /home/canny/Asistencia
+  499  cd ..
+  500  cd canny
+  501  cd Asistencia
+  502  ls -l
+  503  cd ..
+  504  sudo git add .
+  505  sudo git commit -m "Asistencia del 29 de agosto del 2025"
+  506  sudo git push 
+  507  exit
+  508  sudo apt-get install htop -y
+  509  htop
+  510  clear
+  511  history
+  512  clear
+  513  htop
+  514  help
+  515  clear
+  516  chown --help
+  517  clear
+  518  pwd
+  519  cd ..
+  520  clear
+  521  login --help
+  522  clear
+  523  top 
+  524  clear
+  525  top
+  526  clear
+  527  pwd
+  528  cd edes_09
+  529  cd /..
+  530  pwd
+  531  ls -l
+  532  cd etc
+  533  ls -la
+  534  clear
+  535  cd inittab
+  536  ls -la
+  537  top
+  538  clñear
+  539  clear
+  540  systemd --help
+  541  systemd --version
+  542  systemd --help
+  543  systemd --show-status
+  544  clear
+  545  systemctl --help
+  546  cd ..
+  547  cd home
+  548  cd ..
+  549  pwd
+  550  clear
+  551  sudo apt install openssh-server
+  552  sudo apt install openssh-server -y
+  553  ssh --version
+  554  sudo systemctl start ssh
+  555  sudo systemctl stop ssh
+  556  sudo systemctl status ssh
+  557  sudo systemctl enable ssh
+  558  sudo systemctl status ssh
+  559  sudo systemctl start ssh
+  560  sudo systemctl status ssh
+  561  systemctl list-unit-files --type service --all
+  562  clear
+  563  systemctl list-unit-files --type service --all
+  564  clear
+  565  systemctl list-unit-files --type service --all
+  566  man systemctl
+  567  sudo systemctl | grep running
+  568  sudo systemctl status ssh
+  569  sudo systemctl list-unit-files --state=failed
+  570  sudo systemctl reboot ssh
+  571  sudo systemctl reboot
+  572  sudo systemctl disable ssh
+  573  sudo systemctl enable ssh
+  574  sudo systemctl stop ssh
+  575  sudo systemctl enable ssh
+  576  sudo systemctl disable ssh
+  577  systemctl poweroff
+  578  systemctl poweroff ssh
+  579  sudo systemctl poweroff ssh
+  580  sudo systemctl poweroff
+  581  exit
+  582  clear
+  583  pwd
+  584  ls -la
+  585  sudo mv Jueves04Agosto2025.PNG /home/canny/Asistencia
+  586  sudo mv Viernes05Agosto2025.PNG /home/canny/Asistencia
+  587  sudo rm Herramientas
+  588  cd ..
+  589  cd canny
+  590  cd Asistencia
+  591  ls -la
+  592  sudo rm Viernes05Agosto2025.PNG
+  593  sudo rm Jueves04Agosto2025.PNG
+  594  ls -la
+  595  cd ..
+  596  cd edes_09
+  597  ls -la
+  598  sudo mv Jueves04Septiembre2025.PNG /home/canny/Asistencia
+  599  sudo mv Viernes05Septiembre2025.PNG /home/canny/Asistencia
+  600  cd ..
+  601  cd canny
+  602  sudo git add .
+  603  sudo git commit -m "Subo asistencia del 04 y 05 de septiembre y tarea"
+  604  sudo git push
+  605  exit
+  606  systemctl list-unit-files --type service --all
+  607  man systemctl
+  608  sudo systemctl | grep running
+  609  sudo systemctl | grep static
+  610  sudo systemctl | grep generated
+  611  sudo systemctl | grep masked
+  612  sudo systemctl | grep Disabled
+  613  sudo systemctl | grep Enable
+  614  history
+  615  sudo apt update
+  616  sudo apt install openssh-server -y
+  617  pwd
+  618  cd ..
+  619  cd canny
+  620  cd ..
+  621  cd edes_09
+  622  sudo systemctl start shh
+  623  sudo systemctl start openshh
+  624  sudo systemctl start openshh-server
+  625  sudo systemctl start ssh
+  626  sudo systemctl status ssh
+  627  sudo systemctl stop ssh
+  628  sudo systemctl status ssh
+  629  suso sytemctl enable ssh
+  630  sudoo sytemctl enable ssh
+  631  sudo sytemctl enable ssh
+  632  sytemctl enable ssh
+  633  audo sytemctl enable ssh
+  634  sudo systemctl status ssh
+  635  sudo systemctl | grep ssh
+  636  sudo systemctl enable ssh
+  637  sudo systemctl status ssh
+  638  sudo systemctl list-unit-files --state=failed
+  639  sudo systemctl halt
+  640  pwd
+  641  cd ..
+  642  canny
+  643  cd canny
+  644  ls -la
+  645  sudo mkdir TrabajoEnClase
+  646  ls -la
+  647  cd ..
+  648  edes_09
+  649  cd edes_09
+  650  clear
+  651  sudo systemctl poweroff
+  652  sudo systemctl reboot
+  653  exit
+  654  sudo systemctl list-unit-files --state=failed
+  655  systemctl enable cgconfig.service
+  656  sudo systemctl enable cgconfig.service
+  657  cd /..
+  658  pwd
+  659  cd etc
+  660  ls -l
+  661  cd ..
+  662  cd home
+  663  cd edes-09
+  664  cd edes_09
+  665  sudo apt-get install libcgroup -
+  666  sudo systemctl enable cgconfig.service
+  667  sudo systemctl status wsl.conf
+  668  sudo apt update
+  669  sudo apt install net-tools/netstat -nat
+  670  sudo apt install net-tools/netstat--nat
+  671  sudo apt install net-tools
+  672  netstat -v
+  673  netstat -nr
+  674  netstat -ai
+  675  netstat -ant
+  676  netstat -pnltu
+  677  clear
+  678  cd 
+  679  clear
+  680  pwd
+  681  cd  /..
+  682  ls -l
+  683  cd home
+  684  clear
+  685  ls -l
+  686  cd /..
+  687  cd etc
+  688  cd passwd
+  689  clear
+  690  ls -l
+  691  cat /etc/passwd
+  692  cat /etc/shadow
+  693  sudo cat /etc/shadow
+  694  sudo cat group
+  695  cd ..
+  696  cd /..
+  697  pwd
+  698  clear
+  699  pwd
+  700  sudo cat /etc/shadow
+  701  sudo useradd Eduardo
+  702  sudo cat /etc/shadow
+  703  sudo /etc/group
+  704  sudo cat /etc/group
+  705  sudo cat /etc/passwd
+  706  sudo cat /etc/shadow
+  707  exit
+  708  clear
+  709  pwd
+  710  cd ..
+  711  cd canny
+  712  ls -la
+  713  cd TrabajoEnClase
+  714  ls -la
+  715  ls -l
+  716  cd ..
+  717  cd edes_09
+  718  ls -l
+  719  sudo mv TC09Sep25.png /home/canny/TrabajoEnClase
+  720  sudo mv TC109Sep25.png /home/canny/TrabajoEnClase
+  721  cd ..
+  722  cd canny
+  723  cd TrabajoEnClase
+  724  ls -l
+  725  cd ..
+  726  sudo git add .
+  727  sudo git commit -m "Subo carpeta e imagenes de trabajo en clase"
+  728  sudo git push
+  729  exit
+  730  sudo useradd -u 1004 -d /home/mLinux -m -s /bin/bash/ alonso
+  731  sudo cat /etc/group
+  732  ls 
+  733  ls -la
+  734  pwd
+  735  cd 
+  736  ls -la
+  737  cd canny
+  738  cd edes_09
+  739  pwd
+  740  cd ..
+  741  cd canny
+  742  cd ..
+  743  cd edes_09
+  744  ls -la
+  745  clear
+  746  ls -la
+  747  cd ..
+  748  cd canny
+  749  ls -la
+  750  cd TrabajoEnClase
+  751  mkdir 5Septiembre
+  752  sudo mkdir 5Septiembre
+  753  cd ..
+  754  cd edes_09
+  755  mv 1.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  756  sudo mv 1.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  757  sudo mv 2.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  758  sudo mv 3.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  759  sudo mv 4.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  760  sudo mv 5.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  761  sudo mv 6.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  762  sudo mv 7.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  763  sudo mv 8.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  764  sudo mv 9.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  765  sudo mv 10.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  766  sudo mv 11.jpeg /home/canny/TrabajoEnClase/5Septiembre
+  767  sudo git add .
+  768  cd ..
+  769  cd canny
+  770  sudo git add .
+  771  sudo git commit -m "Subo el trabajo en clase del 5 de septiembre"
+  772  sudo git push
+  773  exit
+  774  pwd
+  775  ls -la
+  776  cd ..
+  777  ls -la
+  778  cd canny
+  779  ls
+  780  cd ..
+  781  clear
+  782  history
+  783  sudo useradd -u 1009 -d /home/Monti -m -s /bin/bash Antony
+  784  sudo cat /etc/shadow
+  785  sudo cat /etc/group
+  786  sudo cat /etc/passwd
+  787  sudo useradd -e 2025-09-12 Alonso2
+  788  sudo chage -l Alonso2
+  789  sudo useradd -f 2 Alonso3
+  790  sudo chage -l Alonso3
+  791  sudo chage -i 2 Alonso3
+  792  clear
+  793  sudo chage -m Alonso3
+  794  sudo useradd -m -M 5 -f 2 Alonso3
+  795  sudo chage -l Alonso3
+  796  sudo userdel Alonso3
+  797  sudo cat /etc/shadow
+  798  clear
+  799  sudo useradd -I 30 Alonso3
+  800  sudo useradd -f 30 Alonso3
+  801  sudo chage -l Alonso3
+  802  cd ..
+  803  cd edes_09
+  804  ls -la
+  805  sudo mv Jueves11Septiembre2025p1.png /home/canny/Asistencia
+  806  sudo mv Jueves11Septiembre2025p2.png /home/canny/Asistencia
+  807  cd ..
+  808  cd canny
+  809  cd Asistencia
+  810  ls -la
+  811  clear
+  812  cd ..
+  813  sudo adduser fonseca
+  814  sudo cat /etc/shadow
+  815  sudo cat /etc/group
+  816  sudo chage -l fonseca
+  817  sudo chage -E 2025-09-12 fonseca
+  818  sudo chage -l fonseca
+  819  sudo adduser Alvarez
+  820  sudo git add .
+  821  cd canny
+  822  sudo git add .
+  823  sudo git commit -m "Asistencia del 11 de septiembre del 2025"
+  824  sudo git push
+  825  cd ..
+  826  clear
+  827  sudo adduser --allow-bad-names Alvarez
+  828  sudo cat /etc/group
+  829  sudo usermod -l rodriguez Alvarez2
+  830  sudo usermod -l rodriguez Alvarez
+  831  sudo cat /etc/group
+  832  sudo cat /etc/shadow
+  833  sudo cat /etc/user
+  834  sudo userdel -r rodriguez
+  835  sudo cat /etc/shadow
+  836  sudo cat /etc/group
+  837  su Alvarez
+  838  cd edes_09
+  839  su Alvarez
+  840  sudo Alvarez
+  841  su Alonso2
+  842  su fonseca
+  843  sudo passwd Alvarez
+  844  su fonseca
+  845  clear
+  846  sudo groupadd -g 1024 admins
+  847  sudo cat /etc/group
+  848  sudo cat /etc/shadow
+  849  sudo cat /etc/group
+  850  sudo cat /etc/passwd
+  851  sudo gpasswd -a fonseca admins
+  852  sudo cat /etc/group
+  853  sudo gpasswd -a Antony admins
+  854  sudo cat /etc/group
+  855  sudo groupmod -g 1025 admins
+  856  sudo cat /etc/group
+  857  sudo groupmod -n admons admins
+  858  sudo cat /etc/group
+  859  sudo groupdel admons
+  860  sudo cat /etc/group
+  861  clear
+  862  history
+  863  historial.txt
+  864  history > historial.txt
