@@ -1,0 +1,130 @@
+    1  pwd
+    2  ls -l
+    3  cd ..
+    4  ls l
+    5  ls -l
+    6  exit
+    7  apt update 
+    8  sudo apt update -y
+    9  sudo apt upgrade -y
+   10  uptime
+   11  time
+   12  top
+   13  top -d 3
+   14  top -l
+   15  top -I
+   16  top 1
+   17  top l
+   18  top n
+   19  sudo top n
+   20  top -b
+   21  top -u root
+   22  top
+   23  top -d 
+   24  top -d 1
+   25  top n 8
+   26  ps
+   27  ps -e
+   28  ps -u
+   29  ps -o
+   30  ps -u root
+   31  ps -o
+   32  ps -os
+   33  ps -o s
+   34  ps -x
+   35  ps -aux
+   36  ps -u root
+   37  ps tree
+   38  ps -forest
+   39  pstree
+   40  psforesrt
+   41  psforest
+   42  ps forest
+   43  ps -forest
+   44  vmstat
+   45  vmstat -a
+   46  vmstat -f
+   47  vmstat -d
+   48  vmstat n
+   49  vmstat -n
+   50  vmstat -s
+   51  ps -e
+   52  ps -u root
+   53  ps -l
+   54  ps -a
+   55  ps -x
+   56  ps aux
+   57  ps --forest
+   58  pstree
+   59  vmstat
+   60  vmstat -a
+   61  vmstat -f
+   62  vmstat -d
+   63  vmstat 1
+   64  vmstat 2
+   65  vmstat 5
+   66  vmstat -s
+   67  free
+   68  free -s 22
+   69  free -s 2
+   70  free -s 3
+   71  free -c 3
+   72  free -c 5
+   73  free -c 
+   74  free -c 1
+   75  free -t
+   76  free -l
+   77  df
+   78  df -h
+   79  df -l
+   80  df -m
+   81  df -T
+   82  du /home
+   83  de -h
+   84  du -h
+   85  du -h /home
+   86  du -sh /home
+   87  du -m /home
+   88  du -k /home
+   89  cat/etc/shells
+   90  which bash
+   91  sudo su
+   92  ls -l
+   93  pwd
+   94  cd ..
+   95  ls -l
+   96  sudo su
+   97  ls -l
+   98  ./primer.sh
+   99  sudo su
+  100  sudo nano actualizar.sh
+  101  chmod +x actualizar.sh
+  102  sudo chmod +x actualizar.sh
+  103  ./actualizar.sh
+  104  ls -l
+  105  exit
+  106  ls -l
+  107  cd ..
+  108  s -l
+  109  ls -l
+  110  ./actualizar.sh
+  111  sudo nano segundo.sh
+  112  ls 
+  113  sudo chmod +x segundo.sh
+  114  ./segundo.sh
+  115  sudo nano tercero.sh
+  116  ./tercero.sh
+  117  sudo chmod +x tercero.sh
+  118  ./tercero.sh
+  119  sudo nano cuarto.sh
+  120  sudo chmod +x cuarto.sh
+  121  ./cuarto.sh
+  122  history > Jueves9Octubre2025.txt
+  123  sudo history > Jueves9Octubre2025.txt
+  124  history > 9octubre2015.txt
+  125  history > comandos91025.txt
+  126  ls .ld .
+  127  ls -ld .
+  128  history > comandos91025.txt
+  129  cd alonso
+  130  history > comandos91025.txt
